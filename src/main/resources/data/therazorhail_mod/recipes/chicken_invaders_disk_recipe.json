@@ -1,0 +1,19 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "item": "therazorhail_mod:chicken_invaders_theme",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "The Razor Hail Mod Stuff",
+    "icon": {
+      "value": "CUSTOM:RazorHead"
+    },
+    "showSearch": false
+  }
+}

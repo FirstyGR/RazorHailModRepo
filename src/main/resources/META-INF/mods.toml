@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="therazorhail_mod"
+version="3.1"
+displayName="TheRazorHail Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://discord.gg/CSWmDp3"
+logoFile="logo.png"
+authors="tom the bartender, blaze, George Kousakis, Valve"
+description='''
+Welcome to the More Nutritious Update
+'''
+
+[[dependencies.therazorhail_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

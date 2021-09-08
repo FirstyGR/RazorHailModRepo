@@ -1,0 +1,19 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "item": "therazorhail_mod:jump_boost_candy",
+    "count": 1
+  }
+}

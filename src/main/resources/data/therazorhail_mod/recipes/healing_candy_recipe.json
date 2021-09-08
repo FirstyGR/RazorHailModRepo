@@ -1,0 +1,19 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "therazorhail_mod:healing_candy",
+    "count": 1
+  }
+}

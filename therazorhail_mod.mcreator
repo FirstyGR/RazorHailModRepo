@@ -1,0 +1,869 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BeerBrewer",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer_brewer"
+    },
+    {
+      "name": "BeerBrewerMenu",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer_brewer_menu"
+    },
+    {
+      "name": "OnBrewButtonClick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_brew_button_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeerFoodEaten",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beer",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beer"
+    },
+    {
+      "name": "BrewerRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "brewer_recipe"
+    },
+    {
+      "name": "TamperCheck",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tamper_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HeavyTF2",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_tf_2"
+    },
+    {
+      "name": "TimeToThrow",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "time_to_throw"
+    },
+    {
+      "name": "HowToCraftRazor",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "how_to_craft_razor"
+    },
+    {
+      "name": "ChickenInvadersTheme",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken_invaders_theme"
+    },
+    {
+      "name": "ChickenInvadersDiskRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chicken_invaders_disk_recipe"
+    },
+    {
+      "name": "RazorBoss",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razor_boss"
+    },
+    {
+      "name": "RazorHeadOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razor_head_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RazorHead",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "razor_head"
+    },
+    {
+      "name": "RazHeadRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raz_head_recipe"
+    },
+    {
+      "name": "DrunkPointCode",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drunk_point_code",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrunkPointCheckCommandExecuted",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drunk_point_check_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DrunkPointCheck",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drunk_point_check"
+    },
+    {
+      "name": "HeavyTF2EntityDies",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heavy_tf_2_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedCandyFoodEaten",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedCandy",
+      "type": "food",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_candy"
+    },
+    {
+      "name": "HealingCandyFoodEaten",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealingCandy",
+      "type": "food",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_candy"
+    },
+    {
+      "name": "WaterBreathingCandyFoodEaten",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_breathing_candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterBreathingCandy",
+      "type": "food",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_breathing_candy"
+    },
+    {
+      "name": "JumpBoostCandyFoodEaten",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_boost_candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpBoostCandy",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_boost_candy"
+    },
+    {
+      "name": "SussyBakaSong",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sussy_baka_song"
+    },
+    {
+      "name": "SandvichFoodEaten",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandvich_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sandvich",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sandvich"
+    },
+    {
+      "name": "TheRazorHailModStuff",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_razor_hail_mod_stuff"
+    },
+    {
+      "name": "SpeedCandyRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_candy_recipe"
+    },
+    {
+      "name": "HealingCandyRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "healing_candy_recipe"
+    },
+    {
+      "name": "WaterBreathingCandyRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "water_breathing_candy_recipe"
+    },
+    {
+      "name": "JumpBoostCandyRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jump_boost_candy_recipe"
+    },
+    {
+      "name": "ComicallyLargeSpoom",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comically_large_spoom"
+    },
+    {
+      "name": "SpoomRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spoom_recipe"
+    },
+    {
+      "name": "ComicallyLargeSpoomItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "comically_large_spoom_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheForgottenDimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_forgotten_dimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MarwCloak4",
+      "type": "armor",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marw_cloak_4",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "MarwCloakHelmet",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marw_cloak_helmet"
+    },
+    {
+      "name": "MarwCloakChestPiece",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marw_cloak_chest_piece"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tickLoop",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "craftCheck",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "HeadGotRightClicked",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "HowDruckIsThePlayer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "heeavypissed",
+      "files": [
+        "throw"
+      ],
+      "category": "hostile",
+      "subtitle": "Heavy Is Fucking Pissed"
+    },
+    {
+      "name": "heavychilling",
+      "files": [
+        "no3"
+      ],
+      "category": "neutral",
+      "subtitle": "Heavy Be Chilling"
+    },
+    {
+      "name": "heavyhurt",
+      "files": [
+        "hit1",
+        "hit2",
+        "hit3",
+        "hit4"
+      ],
+      "category": "master",
+      "subtitle": "Some Moron Hit Heavy(why tf would you do that)"
+    },
+    {
+      "name": "theheavyisded",
+      "files": [
+        "death"
+      ],
+      "category": "master",
+      "subtitle": "HEAVY IS DEAD"
+    },
+    {
+      "name": "razorscreams",
+      "files": [
+        "razor_screams"
+      ],
+      "category": "neutral",
+      "subtitle": "The Razzy got scared,"
+    },
+    {
+      "name": "razordiedkekw",
+      "files": [
+        "fart-with-extra-reverb"
+      ],
+      "category": "hostile",
+      "subtitle": "RAZOR DIED OMEGALUL"
+    },
+    {
+      "name": "yoshicooms",
+      "files": [
+        "razor_yoshiscoming"
+      ],
+      "category": "master",
+      "subtitle": "Yoshi is coming.:RazHead:"
+    },
+    {
+      "name": "qustionaboutviolence",
+      "files": [
+        "violence"
+      ],
+      "category": "hostile",
+      "subtitle": "Violence? Yes!"
+    },
+    {
+      "name": "papimeowpapilove",
+      "files": [
+        "meowraz"
+      ],
+      "category": "neutral",
+      "subtitle": "He said meow. What else do you want?"
+    },
+    {
+      "name": "razjibated",
+      "files": [
+        "jibated"
+      ],
+      "category": "neutral",
+      "subtitle": "He got jibated :KEKW:"
+    },
+    {
+      "name": "cofeeass",
+      "files": [
+        "cofeeassraz_tf"
+      ],
+      "category": "neutral",
+      "subtitle": "Bruh who the fuck shoves cofee up their ass. razBruh"
+    },
+    {
+      "name": "cbtsessionlesco",
+      "files": [
+        "cbt"
+      ],
+      "category": "neutral",
+      "subtitle": "CBT TIME WOOOOOOOOOOOO!"
+    },
+    {
+      "name": "amogussussy",
+      "files": [
+        "23878-among-us-trap-remix-bass-boosted-leonz"
+      ],
+      "category": "music",
+      "subtitle": "JKL I hate you sometimes. (joking lol)"
+    },
+    {
+      "name": "chicken_invaders_theme",
+      "files": [
+        "chicken_invaders_theme_but_its_low_quality_and_compressed"
+      ],
+      "category": "music",
+      "subtitle": "A Song Of Dominance Plays, Pray."
+    },
+    {
+      "name": "dickedlol",
+      "files": [
+        "diqued"
+      ],
+      "category": "hostile",
+      "subtitle": "He got diqued. :KEKW:"
+    },
+    {
+      "name": "spitfire",
+      "files": [
+        "spitfire_-_go_2"
+      ],
+      "category": "music",
+      "subtitle": "SPITFIRE. BECAUSE I WANT TO."
+    },
+    {
+      "name": "underzewotor",
+      "files": [
+        "hello_im_under_the_water_"
+      ],
+      "category": "master",
+      "subtitle": "You happen to be under the water lol."
+    },
+    {
+      "name": "heavyeatsandvich",
+      "files": [
+        "heavy_sandwichtaunt01",
+        "heavy_sandwichtaunt02",
+        "heavy_sandwichtaunt03",
+        "heavy_sandwichtaunt04",
+        "heavy_sandwichtaunt05",
+        "heavy_sandwichtaunt06",
+        "heavy_sandwichtaunt07",
+        "heavy_sandwichtaunt08",
+        "heavy_sandwichtaunt10",
+        "heavy_sandwichtaunt11",
+        "heavy_sandwichtaunt12",
+        "heavy_sandwichtaunt13",
+        "heavy_sandwichtaunt14",
+        "heavy_sandwichtaunt15",
+        "heavy_sandwichtaunt16",
+        "heavy_sandwichtaunt17",
+        "heavy_singing01",
+        "heavy_singing02"
+      ],
+      "category": "player",
+      "subtitle": "Someone is eating sandvich."
+    },
+    {
+      "name": "playereatsandwich",
+      "files": [
+        "eatssandvich"
+      ],
+      "category": "player",
+      "subtitle": "Player Eats Sandwich"
+    },
+    {
+      "name": "spoooooooooon",
+      "files": [
+        "spoon"
+      ],
+      "category": "neutral",
+      "subtitle": "Someone Got Spooned."
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.therazorhail_mod.jump_boost_candy": "Jump Boost Candy",
+      "subtitles.hegotdiqued": "He got dicked. :KEKW:",
+      "item.therazorhail_mod.chicken_invaders_theme.desc": "While listening to this, you see Heavies Circle You.",
+      "subtitles.qustionaboutviolence": "Violence? Yes!",
+      "subtitles.razorscreams": "The Razzy got scared,",
+      "item.therazorhail_mod.razor_boss_spawn_egg": "Buttery Boy Razor Spawn Egg",
+      "subtitles.sandvichconsume": "Someone ate a sandvich.",
+      "subtitles.yoshicooms": "Yoshi is coming.:RazHead:",
+      "itemGroup.tabthe_razor_hail_mod_stuff": "The Razor Hail Mod Stuff",
+      "subtitles.amogussussy": "JKL I hate you sometimes. (joking lol)",
+      "item.therazorhail_mod.marw_cloak_4_boots": "Marw Cloak 4 Boots",
+      "item.therazorhail_mod.heavy_tf_2_spawn_egg": "Heavy TF2 Spawn Egg",
+      "item.therazorhail_mod.sussy_baka_song.desc": "JKL this is your fault.",
+      "subtitles.heavyeatsandvich": "Someone is eating sandvich.",
+      "item.therazorhail_mod.speed_candy": "Speed Candy",
+      "subtitles.chicken_invaders_theme": "A Song Of Dominance Plays, Pray.",
+      "entity.therazorhail_mod.razor_boss": "Buttery Boy Razor",
+      "block.therazorhail_mod.beer_brewer": "Beer Brewer",
+      "subtitles.spoooooooooon": "Someone Got Spooned.",
+      "subtitles.sandvichconsume1": "Someone ate a sandvich.",
+      "subtitles.spitfire": "SPITFIRE. BECAUSE I WANT TO.",
+      "subtitles.razordiedkekw": "RAZOR DIED OMEGALUL",
+      "item.therazorhail_mod.healing_candy": "Healing Candy",
+      "subtitles.razjibated": "He got jibated :KEKW:",
+      "subtitles.papimeowpapilove": "He said meow. What else do you want?",
+      "item.therazorhail_mod.comically_large_spoom": "Comically Large Spoon",
+      "item.therazorhail_mod.beer": "Beer",
+      "subtitles.heavychilling": "Heavy Be Chilling",
+      "subtitles.cofeeass": "Bruh who the fuck shoves cofee up their ass. razBruh",
+      "item.therazorhail_mod.marw_cloak_4_helmet": "Marw Cloak 4 Helmet",
+      "item.therazorhail_mod.marw_cloak_4_chestplate": "Marw Cloak 4 Body",
+      "subtitles.heavyhurt": "Some Moron Hit Heavy(why tf would you do that)",
+      "subtitles.heeavypissed": "Heavy Is Fucking Pissed",
+      "subtitles.underzewotor": "You happen to be under the water lol.",
+      "subtitles.dickedlol": "He got diqued. :KEKW:",
+      "subtitles.theheavyisded": "HEAVY IS DEAD",
+      "entity.therazorhail_mod.heavy_tf_2": "Heavy TF2",
+      "item.therazorhail_mod.chicken_invaders_theme": "Chicken Invaders Theme",
+      "block.therazorhail_mod.razor_head": "Razor Head",
+      "item.therazorhail_mod.sandvich": "Sandvich",
+      "subtitles.playereatsandwich": "Player Eats Sandwich",
+      "item.therazorhail_mod.marw_cloak_4_leggings": "Marw Cloak 4 Leggings",
+      "item.therazorhail_mod.time_to_throw": "Time To Throw Pogchamp",
+      "item.therazorhail_mod.water_breathing_candy": "Water Breathing Candy",
+      "item.therazorhail_mod.sussy_baka_song": "Sussy Baka Song",
+      "subtitles.cbtsessionlesco": "CBT TIME WOOOOOOOOOOOO!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "therazorhail_mod",
+    "modName": "TheRazorHail Mod",
+    "version": "3.1",
+    "description": "Welcome to the More Nutritious Update",
+    "author": "tom the bartender, blaze, George Kousakis, Valve",
+    "websiteURL": "https://discord.gg/CSWmDp3",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "860268152344936448",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.therazorhailmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

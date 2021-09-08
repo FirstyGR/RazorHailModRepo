@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "therazorhail_mod:blocks/razhead",
+    "up": "therazorhail_mod:blocks/razhead",
+    "north": "therazorhail_mod:blocks/razhead",
+    "east": "therazorhail_mod:blocks/razhead",
+    "south": "therazorhail_mod:blocks/razhead",
+    "west": "therazorhail_mod:blocks/razhead",
+    "particle": "therazorhail_mod:blocks/razhead"
+  }
+}

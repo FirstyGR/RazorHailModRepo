@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "therazorhail_mod:blocks/barrel_bottom",
+    "up": "therazorhail_mod:blocks/barrel_top",
+    "north": "therazorhail_mod:blocks/barrel_side",
+    "east": "therazorhail_mod:blocks/barrel_side",
+    "south": "therazorhail_mod:blocks/barrel_side",
+    "west": "therazorhail_mod:blocks/barrel_side",
+    "particle": "therazorhail_mod:blocks/barrel_bottom"
+  }
+}

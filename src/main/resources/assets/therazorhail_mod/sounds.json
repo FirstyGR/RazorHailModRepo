@@ -1,0 +1,282 @@
+{
+  "heeavypissed": {
+    "category": "hostile",
+    "subtitle": "subtitles.heeavypissed",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:throw",
+        "stream": false
+      }
+    ]
+  },
+  "heavychilling": {
+    "category": "neutral",
+    "subtitle": "subtitles.heavychilling",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:no3",
+        "stream": false
+      }
+    ]
+  },
+  "heavyhurt": {
+    "category": "master",
+    "subtitle": "subtitles.heavyhurt",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:hit1",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:hit2",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:hit3",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:hit4",
+        "stream": false
+      }
+    ]
+  },
+  "theheavyisded": {
+    "category": "master",
+    "subtitle": "subtitles.theheavyisded",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:death",
+        "stream": false
+      }
+    ]
+  },
+  "razorscreams": {
+    "category": "neutral",
+    "subtitle": "subtitles.razorscreams",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:razor_screams",
+        "stream": false
+      }
+    ]
+  },
+  "razordiedkekw": {
+    "category": "hostile",
+    "subtitle": "subtitles.razordiedkekw",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:fart-with-extra-reverb",
+        "stream": false
+      }
+    ]
+  },
+  "yoshicooms": {
+    "category": "master",
+    "subtitle": "subtitles.yoshicooms",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:razor_yoshiscoming",
+        "stream": false
+      }
+    ]
+  },
+  "qustionaboutviolence": {
+    "category": "hostile",
+    "subtitle": "subtitles.qustionaboutviolence",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:violence",
+        "stream": false
+      }
+    ]
+  },
+  "papimeowpapilove": {
+    "category": "neutral",
+    "subtitle": "subtitles.papimeowpapilove",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:meowraz",
+        "stream": false
+      }
+    ]
+  },
+  "razjibated": {
+    "category": "neutral",
+    "subtitle": "subtitles.razjibated",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:jibated",
+        "stream": false
+      }
+    ]
+  },
+  "cofeeass": {
+    "category": "neutral",
+    "subtitle": "subtitles.cofeeass",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:cofeeassraz_tf",
+        "stream": false
+      }
+    ]
+  },
+  "cbtsessionlesco": {
+    "category": "neutral",
+    "subtitle": "subtitles.cbtsessionlesco",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:cbt",
+        "stream": false
+      }
+    ]
+  },
+  "amogussussy": {
+    "category": "music",
+    "subtitle": "subtitles.amogussussy",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:23878-among-us-trap-remix-bass-boosted-leonz",
+        "stream": true
+      }
+    ]
+  },
+  "chicken_invaders_theme": {
+    "category": "music",
+    "subtitle": "subtitles.chicken_invaders_theme",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:chicken_invaders_theme_but_its_low_quality_and_compressed",
+        "stream": true
+      }
+    ]
+  },
+  "dickedlol": {
+    "category": "hostile",
+    "subtitle": "subtitles.dickedlol",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:diqued",
+        "stream": false
+      }
+    ]
+  },
+  "spitfire": {
+    "category": "music",
+    "subtitle": "subtitles.spitfire",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:spitfire_-_go_2",
+        "stream": true
+      }
+    ]
+  },
+  "underzewotor": {
+    "category": "master",
+    "subtitle": "subtitles.underzewotor",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:hello_im_under_the_water_",
+        "stream": false
+      }
+    ]
+  },
+  "heavyeatsandvich": {
+    "category": "player",
+    "subtitle": "subtitles.heavyeatsandvich",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt01",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt02",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt03",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt04",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt05",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt06",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt07",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt08",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt10",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt11",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt12",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt13",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt14",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt15",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt16",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_sandwichtaunt17",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_singing01",
+        "stream": false
+      },
+      {
+        "name": "therazorhail_mod:heavy_singing02",
+        "stream": false
+      }
+    ]
+  },
+  "playereatsandwich": {
+    "category": "player",
+    "subtitle": "subtitles.playereatsandwich",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:eatssandvich",
+        "stream": false
+      }
+    ]
+  },
+  "spoooooooooon": {
+    "category": "neutral",
+    "subtitle": "subtitles.spoooooooooon",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:spoon",
+        "stream": false
+      }
+    ]
+  }
+}

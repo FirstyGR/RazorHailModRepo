@@ -1,0 +1,29 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "minecraft:black_wool"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:marw_cloak_4_helmet",
+    "count": 1
+  }
+}

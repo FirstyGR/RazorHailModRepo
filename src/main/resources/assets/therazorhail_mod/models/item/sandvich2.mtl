@@ -1,0 +1,7 @@
+newmtl material_0
+Ka 0.2 0.2 0.2
+Kd 0.466667 0.415686 0.537255
+Ks 1.0 1.0 1.0
+map_Kd therazorhail_mod:blocks/c_sandwich
+Ns 0.0
+d 1.0

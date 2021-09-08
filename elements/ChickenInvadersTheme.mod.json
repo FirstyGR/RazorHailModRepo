@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "chickeninvadersyheme",
+    "name": "Chicken Invaders Theme",
+    "description": "While listening to this, you see Heavies Circle You.",
+    "creativeTab": {
+      "value": "CUSTOM:TheRazorHailModStuff"
+    },
+    "music": {
+      "value": "CUSTOM:chicken_invaders_theme"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

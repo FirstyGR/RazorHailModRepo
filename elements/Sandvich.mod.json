@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "sandvichitem",
+    "customModelName": "Normal",
+    "name": "Sandvich",
+    "rarity": "EPIC",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TheRazorHailModStuff"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 20,
+    "saturation": 5.0,
+    "eatingSpeed": 86,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SandvichFoodEaten"
+    }
+  }
+}

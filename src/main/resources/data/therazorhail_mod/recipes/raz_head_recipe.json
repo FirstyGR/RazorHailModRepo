@@ -1,0 +1,42 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal_block"
+    },
+    "1": {
+      "item": "minecraft:coal_block"
+    },
+    "2": {
+      "item": "minecraft:coal_block"
+    },
+    "3": {
+      "item": "minecraft:lapis_block"
+    },
+    "4": {
+      "item": "minecraft:smooth_stone"
+    },
+    "5": {
+      "item": "minecraft:lapis_block"
+    },
+    "6": {
+      "item": "minecraft:birch_planks"
+    },
+    "7": {
+      "item": "minecraft:coal_block"
+    },
+    "8": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:razor_head",
+    "count": 1
+  }
+}

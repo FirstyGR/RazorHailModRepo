@@ -1,0 +1,7 @@
+{
+  "parent": "therazorhail_mod:custom/comicallylargespoon",
+  "textures": {
+    "0": "therazorhail_mod:blocks/spoon",
+    "particle": "therazorhail_mod:items/speedcandydevtexture"
+  }
+}

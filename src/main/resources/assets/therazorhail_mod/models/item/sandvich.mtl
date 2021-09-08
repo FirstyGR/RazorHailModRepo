@@ -1,0 +1,7 @@
+newmtl sandvich
+Ka 1.0 1.0 1.0
+Kd 0.467413 0.418986 0.538234
+Ks 0.5 0.5 0.5
+map_Kd therazorhail_mod:blocks/c_sandwich
+Ns 96.07843
+d 1.0

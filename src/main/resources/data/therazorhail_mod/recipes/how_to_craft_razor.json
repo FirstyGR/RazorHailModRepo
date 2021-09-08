@@ -1,0 +1,12 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:grass"
+  },
+  "result": {
+    "item": "therazorhail_mod:time_to_throw"
+  }
+}
