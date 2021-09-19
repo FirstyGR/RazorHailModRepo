@@ -1,0 +1,20 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "therazorhail_mod:time_to_throw"
+    },
+    "1": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:mod_tutorial",
+    "count": 1
+  }
+}

@@ -86,6 +86,8 @@ public class TherazorhailModModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("therazorhail_mod", "playereatsandwich")));
 		sounds.put(new ResourceLocation("therazorhail_mod", "spoooooooooon"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("therazorhail_mod", "spoooooooooon")));
+		sounds.put(new ResourceLocation("therazorhail_mod", "modtutorialdisc"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("therazorhail_mod", "modtutorialdisc")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("therazorhail_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -278,5 +278,14 @@
         "stream": false
       }
     ]
+  },
+  "modtutorialdisc": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "therazorhail_mod:tutorial",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "tutorialdisc",
+    "name": "Mod Tutorial",
+    "description": "Mod tutorial disc. Use in jukebox",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:modtutorialdisc"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
