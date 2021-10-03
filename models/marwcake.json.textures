@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "marwcake2",
+        "1": "marwcakebase2",
+        "2": "marwcandletop",
+        "3": "marwcandlebody2",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

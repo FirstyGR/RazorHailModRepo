@@ -382,15 +382,6 @@
       "registry_name": "jump_boost_candy"
     },
     {
-      "name": "SussyBakaSong",
-      "type": "musicdisc",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "sussy_baka_song"
-    },
-    {
       "name": "SandvichFoodEaten",
       "type": "procedure",
       "sortid": 24,
@@ -521,35 +512,6 @@
       }
     },
     {
-      "name": "TheForgottenDimensionPlayerEntersDimension",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "the_forgotten_dimension_player_enters_dimension",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "MarwCloak4",
       "type": "armor",
       "sortid": 34,
@@ -599,6 +561,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mod_tutorial_disc_recipe"
+    },
+    {
+      "name": "DementiaParticles",
+      "type": "particle",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dementia_particles"
+    },
+    {
+      "name": "DementiaEye",
+      "type": "livingentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dementia_eye"
+    },
+    {
+      "name": "MarwCake",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marw_cake"
+    },
+    {
+      "name": "Dementia",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dementia"
     }
   ],
   "variable_elements": [
@@ -826,6 +824,7 @@
       "item.therazorhail_mod.marw_cloak_4_boots": "Marw Cloak 4 Boots",
       "entity.therazorhail_mod.razor_boss": "Buttery Boy Razor",
       "subtitles.razjibated": "He got jibated :KEKW:",
+      "entity.therazorhail_mod.dementia_eye": "Dementia Eye",
       "item.therazorhail_mod.beer": "Beer",
       "subtitles.heavychilling": "Heavy Be Chilling",
       "subtitles.cofeeass": "Bruh who the fuck shoves cofee up their ass. razBruh",
@@ -834,6 +833,7 @@
       "subtitles.heavyhurt": "Some Moron Hit Heavy(why tf would you do that)",
       "subtitles.heeavypissed": "Heavy Is Fucking Pissed",
       "item.therazorhail_mod.chicken_invaders_theme": "Chicken Invaders Theme",
+      "item.therazorhail_mod.dementia_eye_spawn_egg": "Dementia Eye Spawn Egg",
       "block.therazorhail_mod.razor_head": "Razor Head",
       "subtitles.playereatsandwich": "Player Eats Sandwich",
       "item.therazorhail_mod.marw_cloak_4_leggings": "Marw Cloak 4 Leggings",
@@ -842,17 +842,18 @@
       "item.therazorhail_mod.mod_tutorial": "Mod Tutorial",
       "subtitles.hegotdiqued": "He got dicked. :KEKW:",
       "item.therazorhail_mod.chicken_invaders_theme.desc": "While listening to this, you see Heavies Circle You.",
+      "item.therazorhail_mod.dementia_spawn_egg": "Dementia Spawn Egg",
       "subtitles.razorscreams": "The Razzy got scared,",
       "itemGroup.tabthe_razor_hail_mod_stuff": "The Razor Hail Mod Stuff",
       "subtitles.amogussussy": "JKL I hate you sometimes. (joking lol)",
       "item.therazorhail_mod.heavy_tf_2_spawn_egg": "Heavy TF2 Spawn Egg",
-      "item.therazorhail_mod.sussy_baka_song.desc": "JKL this is your fault.",
       "subtitles.heavyeatsandvich": "Someone is eating sandvich.",
       "item.therazorhail_mod.speed_candy": "Speed Candy",
       "subtitles.chicken_invaders_theme": "A Song Of Dominance Plays, Pray.",
       "block.therazorhail_mod.beer_brewer": "Beer Brewer",
       "subtitles.spoooooooooon": "Someone Got Spooned.",
       "item.therazorhail_mod.mod_tutorial.desc": "Mod tutorial disc. Use in jukebox",
+      "block.therazorhail_mod.marw_cake": "Marw Cake",
       "subtitles.sandvichconsume1": "Someone ate a sandvich.",
       "subtitles.spitfire": "SPITFIRE. BECAUSE I WANT TO.",
       "subtitles.razordiedkekw": "RAZOR DIED OMEGALUL",
@@ -862,10 +863,10 @@
       "subtitles.underzewotor": "You happen to be under the water lol.",
       "subtitles.dickedlol": "He got diqued. :KEKW:",
       "subtitles.theheavyisded": "HEAVY IS DEAD",
+      "entity.therazorhail_mod.dementia": "Dementia",
       "entity.therazorhail_mod.heavy_tf_2": "Heavy TF2",
       "item.therazorhail_mod.sandvich": "Sandvich",
       "item.therazorhail_mod.water_breathing_candy": "Water Breathing Candy",
-      "item.therazorhail_mod.sussy_baka_song": "Sussy Baka Song",
       "subtitles.modtutorialdisc": "",
       "subtitles.cbtsessionlesco": "CBT TIME WOOOOOOOOOOOO!"
     }
@@ -879,7 +880,7 @@
     "modName": "TheRazorHail Mod",
     "version": "3.1",
     "description": "Welcome to the More Nutritious Update",
-    "author": "tom the bartender, blaze, George Kousakis, Valve",
+    "author": "AcidDev, tom the bartender, blaze, George Kousakis, Valve, ",
     "websiteURL": "https://discord.gg/CSWmDp3",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

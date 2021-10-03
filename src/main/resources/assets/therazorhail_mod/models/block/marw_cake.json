@@ -1,0 +1,12 @@
+{
+  "parent": "therazorhail_mod:custom/marwcake",
+  "textures": {
+    "all": "therazorhail_mod:blocks/marwcakebase2",
+    "particle": "therazorhail_mod:blocks/marwcakebase2",
+    "0": "therazorhail_mod:blocks/marwcake2",
+    "1": "therazorhail_mod:blocks/marwcakebase2",
+    "2": "therazorhail_mod:blocks/marwcandletop",
+    "3": "therazorhail_mod:blocks/marwcandlebody2",
+    "missing": "therazorhail_mod:blocks/"
+  }
+}
