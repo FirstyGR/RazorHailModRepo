@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "therazorhail_mod:blocks/forgottenplanks",
+    "top": "therazorhail_mod:blocks/forgottenplanks",
+    "side": "therazorhail_mod:blocks/forgottenplanks"
+  }
+}

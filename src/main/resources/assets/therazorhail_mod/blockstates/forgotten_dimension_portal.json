@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "therazorhail_mod:block/forgotten_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "therazorhail_mod:block/forgotten_dimension_portal_ns"
+    }
+  }
+}

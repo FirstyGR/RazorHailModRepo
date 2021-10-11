@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "therazorhail_mod:blocks/forgottenwood_planks",
+    "particle": "therazorhail_mod:blocks/forgottenwood_planks"
+  }
+}

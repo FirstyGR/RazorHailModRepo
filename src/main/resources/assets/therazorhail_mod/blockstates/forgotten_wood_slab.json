@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "therazorhail_mod:block/forgotten_wood_slab"
+    },
+    "type=top": {
+      "model": "therazorhail_mod:block/forgotten_wood_slab_top"
+    },
+    "type=double": {
+      "model": "therazorhail_mod:block/forgotten_wood_slab_full"
+    }
+  }
+}

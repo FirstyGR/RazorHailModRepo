@@ -1,0 +1,13 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:forgottenwood_log"
+    }
+  ],
+  "result": {
+    "item": "therazorhail_mod:forgotten_wood_planks",
+    "count": 4
+  }
+}

@@ -76,6 +76,7 @@ public class DementiaEyeEntity extends TherazorhailModModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			enablePersistence();
 		}
 
 		@Override
@@ -96,6 +97,11 @@ public class DementiaEyeEntity extends TherazorhailModModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEAD;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		@Override

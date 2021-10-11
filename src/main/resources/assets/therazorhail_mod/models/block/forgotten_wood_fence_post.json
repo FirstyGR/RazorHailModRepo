@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "therazorhail_mod:blocks/forgottenwood_planks",
+    "particle": "therazorhail_mod:blocks/forgottenwood_planks"
+  }
+}

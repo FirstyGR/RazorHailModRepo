@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "therazorhail_mod:blocks/forgottenleaves",
+    "particle": "therazorhail_mod:blocks/forgottenleaves"
+  }
+}

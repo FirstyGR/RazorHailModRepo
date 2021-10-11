@@ -597,6 +597,225 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dementia"
+    },
+    {
+      "name": "ForgottenGrass",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_grass"
+    },
+    {
+      "name": "ForgottenStone",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_stone"
+    },
+    {
+      "name": "ForgottenWoodWood",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_wood"
+    },
+    {
+      "name": "ForgottenWoodLog",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_log"
+    },
+    {
+      "name": "ForgottenWoodPlanks",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_planks"
+    },
+    {
+      "name": "ForgottenWoodLeaves",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_leaves"
+    },
+    {
+      "name": "ForgottenWoodStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_stairs"
+    },
+    {
+      "name": "ForgottenWoodSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_slab"
+    },
+    {
+      "name": "ForgottenWoodFence",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_fence"
+    },
+    {
+      "name": "ForgottenWoodFenceGate",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_fence_gate"
+    },
+    {
+      "name": "ForgottenWoodPressurePlate",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_pressure_plate"
+    },
+    {
+      "name": "ForgottenWoodButton",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_button"
+    },
+    {
+      "name": "ForgottenWoodItemsTag",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_items_tag"
+    },
+    {
+      "name": "ForgottenWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_wood_recipe"
+    },
+    {
+      "name": "ForgottenWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_planks_recipe"
+    },
+    {
+      "name": "ForgottenWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_stairs_recipe"
+    },
+    {
+      "name": "ForgottenWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_slab_recipe"
+    },
+    {
+      "name": "ForgottenWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_fence_recipe"
+    },
+    {
+      "name": "ForgottenWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_fence_gate_recipe"
+    },
+    {
+      "name": "ForgottenWoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "ForgottenWoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_button_recipe"
+    },
+    {
+      "name": "ForgottenWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_wood_stick_recipe"
+    },
+    {
+      "name": "ForgottenBiome",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_biome"
+    },
+    {
+      "name": "ForgottenDimension",
+      "type": "dimension",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "forgotten_dimension",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [
@@ -817,6 +1036,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.therazorhail_mod.forgotten_stone": "Forgotten Stone",
       "subtitles.qustionaboutviolence": "Violence? Yes!",
       "item.therazorhail_mod.razor_boss_spawn_egg": "Buttery Boy Razor Spawn Egg",
       "subtitles.sandvichconsume": "Someone ate a sandvich.",
@@ -827,18 +1047,23 @@
       "entity.therazorhail_mod.dementia_eye": "Dementia Eye",
       "item.therazorhail_mod.beer": "Beer",
       "subtitles.heavychilling": "Heavy Be Chilling",
+      "block.therazorhail_mod.forgotten_wood_fence": "ForgottenWood Fence",
       "subtitles.cofeeass": "Bruh who the fuck shoves cofee up their ass. razBruh",
       "item.therazorhail_mod.marw_cloak_4_helmet": "Marw Cloak 4 Helmet",
       "item.therazorhail_mod.marw_cloak_4_chestplate": "Marw Cloak 4 Body",
       "subtitles.heavyhurt": "Some Moron Hit Heavy(why tf would you do that)",
       "subtitles.heeavypissed": "Heavy Is Fucking Pissed",
+      "block.therazorhail_mod.forgotten_wood_log": "ForgottenWood Log",
       "item.therazorhail_mod.chicken_invaders_theme": "Chicken Invaders Theme",
       "item.therazorhail_mod.dementia_eye_spawn_egg": "Dementia Eye Spawn Egg",
       "block.therazorhail_mod.razor_head": "Razor Head",
       "subtitles.playereatsandwich": "Player Eats Sandwich",
       "item.therazorhail_mod.marw_cloak_4_leggings": "Marw Cloak 4 Leggings",
       "item.therazorhail_mod.time_to_throw": "Time To Throw Pogchamp",
+      "block.therazorhail_mod.forgotten_wood_pressure_plate": "ForgottenWood Pressure Plate",
       "item.therazorhail_mod.jump_boost_candy": "Jump Boost Candy",
+      "biome.therazorhail_mod.forgotten_biome": "Forgotten Biome",
+      "item.therazorhail_mod.forgotten_dimension": "Forgotten Dimension Portal Igniter",
       "item.therazorhail_mod.mod_tutorial": "Mod Tutorial",
       "subtitles.hegotdiqued": "He got dicked. :KEKW:",
       "item.therazorhail_mod.chicken_invaders_theme.desc": "While listening to this, you see Heavies Circle You.",
@@ -850,10 +1075,12 @@
       "subtitles.heavyeatsandvich": "Someone is eating sandvich.",
       "item.therazorhail_mod.speed_candy": "Speed Candy",
       "subtitles.chicken_invaders_theme": "A Song Of Dominance Plays, Pray.",
+      "block.therazorhail_mod.forgotten_wood_leaves": "ForgottenWood Leaves",
       "block.therazorhail_mod.beer_brewer": "Beer Brewer",
       "subtitles.spoooooooooon": "Someone Got Spooned.",
       "item.therazorhail_mod.mod_tutorial.desc": "Mod tutorial disc. Use in jukebox",
       "block.therazorhail_mod.marw_cake": "Marw Cake",
+      "block.therazorhail_mod.forgotten_wood_wood": "ForgottenWood Wood",
       "subtitles.sandvichconsume1": "Someone ate a sandvich.",
       "subtitles.spitfire": "SPITFIRE. BECAUSE I WANT TO.",
       "subtitles.razordiedkekw": "RAZOR DIED OMEGALUL",
@@ -862,13 +1089,19 @@
       "item.therazorhail_mod.comically_large_spoom": "Comically Large Spoon",
       "subtitles.underzewotor": "You happen to be under the water lol.",
       "subtitles.dickedlol": "He got diqued. :KEKW:",
+      "block.therazorhail_mod.forgotten_wood_stairs": "ForgottenWood Stairs",
+      "block.therazorhail_mod.forgotten_wood_fence_gate": "ForgottenWood Fence Gate",
       "subtitles.theheavyisded": "HEAVY IS DEAD",
       "entity.therazorhail_mod.dementia": "Dementia",
+      "block.therazorhail_mod.forgotten_wood_slab": "ForgottenWood Slab",
+      "block.therazorhail_mod.forgotten_wood_button": "ForgottenWood Button",
       "entity.therazorhail_mod.heavy_tf_2": "Heavy TF2",
       "item.therazorhail_mod.sandvich": "Sandvich",
+      "block.therazorhail_mod.forgotten_wood_planks": "ForgottenWood Planks",
       "item.therazorhail_mod.water_breathing_candy": "Water Breathing Candy",
       "subtitles.modtutorialdisc": "",
-      "subtitles.cbtsessionlesco": "CBT TIME WOOOOOOOOOOOO!"
+      "subtitles.cbtsessionlesco": "CBT TIME WOOOOOOOOOOOO!",
+      "block.therazorhail_mod.forgotten_grass": "Forgotten Grass"
     }
   },
   "foldersRoot": {
@@ -880,7 +1113,7 @@
     "modName": "TheRazorHail Mod",
     "version": "3.1",
     "description": "Welcome to the More Nutritious Update",
-    "author": "AcidDev, tom the bartender, blaze, George Kousakis, Valve, ",
+    "author": "The Night Operations Cavalier#4322, AcidDev, tom the bartender, blaze, George Kousakis, Valve, ",
     "websiteURL": "https://discord.gg/CSWmDp3",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

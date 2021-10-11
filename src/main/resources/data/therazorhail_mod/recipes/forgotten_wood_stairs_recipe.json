@@ -1,0 +1,33 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    },
+    "3": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    },
+    "4": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    },
+    "6": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    },
+    "7": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    },
+    "8": {
+      "item": "therazorhail_mod:forgotten_wood_planks"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:forgotten_wood_stairs",
+    "count": 4
+  }
+}
