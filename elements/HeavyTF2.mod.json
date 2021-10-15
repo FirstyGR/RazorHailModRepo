@@ -89,7 +89,7 @@
       "value": "CUSTOM:theheavyisded"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.netherrack.step"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -117,8 +117,8 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 9,
     "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 3,
-    "maxNumberOfMobsPerGroup": 12,
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
     "restrictionBiomes": [
       {
         "value": "plains"

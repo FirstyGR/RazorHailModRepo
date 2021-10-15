@@ -48,6 +48,7 @@ import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
+import net.minecraft.block.BlockState;
 
 import net.mcreator.therazorhailmod.itemgroup.TheRazorHailModStuffItemGroup;
 import net.mcreator.therazorhailmod.item.SandvichItem;
@@ -80,7 +81,7 @@ public class HeavyTF2Entity extends TherazorhailModModElements.ModElement {
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		event.getSpawns().getSpawner(EntityClassification.AMBIENT).add(new MobSpawnInfo.Spawners(entity, 9, 3, 12));
+		event.getSpawns().getSpawner(EntityClassification.AMBIENT).add(new MobSpawnInfo.Spawners(entity, 9, 2, 3));
 	}
 
 	@Override
@@ -149,6 +150,12 @@ public class HeavyTF2Entity extends TherazorhailModModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("therazorhail_mod:heavychilling"));
+		}
+
+		@Override
+		public void playStepSound(BlockPos pos, BlockState blockIn) {
+			this.playSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.netherrack.step")),
+					0.15f, 1);
 		}
 
 		@Override

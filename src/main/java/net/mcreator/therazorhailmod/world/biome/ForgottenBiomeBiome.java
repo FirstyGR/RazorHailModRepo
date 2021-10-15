@@ -24,7 +24,9 @@ import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityClassification;
 
+import net.mcreator.therazorhailmod.entity.DementiaEntity;
 import net.mcreator.therazorhailmod.block.ForgottenWoodLogBlock;
 import net.mcreator.therazorhailmod.block.ForgottenWoodLeavesBlock;
 import net.mcreator.therazorhailmod.block.ForgottenStoneBlock;
@@ -42,7 +44,7 @@ public class ForgottenBiomeBiome extends TherazorhailModModElements.ModElement {
 		@SubscribeEvent
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
-				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-10066330).setWaterColor(-16764109).setWaterFogColor(329011)
+				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-10066330).setWaterColor(4159204).setWaterFogColor(329011)
 						.withSkyColor(-10066330).withFoliageColor(10387789).withGrassColor(9470285).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(ForgottenGrassBlock.block.getDefaultState(),
@@ -54,7 +56,7 @@ public class ForgottenBiomeBiome extends TherazorhailModModElements.ModElement {
 										new BlobFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 3),
 										new StraightTrunkPlacer(7, 2, 0), new TwoLayerFeature(1, 0, 1))).setIgnoreVines().setMaxWaterDepth(0).build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
-						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(1, 0.1F, 1))));
+						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(2, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.RANDOM_PATCH.withConfiguration(Features.Configs.GRASS_PATCH_CONFIG).withPlacement(Features.Placements.PATCH_PLACEMENT)
 								.withPlacement(Placement.COUNT_NOISE.configure(new NoiseDependant(-0.8D, 5, 4))));
@@ -63,6 +65,7 @@ public class ForgottenBiomeBiome extends TherazorhailModModElements.ModElement {
 								.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 								.func_242731_b(4));
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
+				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(DementiaEntity.entity, 19, 2, 2));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(0.1f).scale(0.2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

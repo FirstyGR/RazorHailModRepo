@@ -64,10 +64,10 @@
       "sea_level": 63,
       "disable_mob_generation": true,
       "default_block": {
-        "Name": "minecraft:polished_andesite"
+        "Name": "therazorhail_mod:forgotten_stone"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
+        "Name": "therazorhail_mod:memory_leak",
         "Properties": {
           "level": "0"
         }

@@ -12,14 +12,10 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#6"
+      "value": "CUSTOM:ForgottenStone"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
-    },
-    "airColor": {
-      "value": -10066330,
-      "falpha": 0.0
+      "value": "CUSTOM:MemoryLeak"
     },
     "canRespawnHere": true,
     "hasFog": true,

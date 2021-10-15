@@ -572,15 +572,6 @@
       "registry_name": "dementia_particles"
     },
     {
-      "name": "DementiaEye",
-      "type": "livingentity",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dementia_eye"
-    },
-    {
       "name": "MarwCake",
       "type": "block",
       "sortid": 41,
@@ -816,6 +807,36 @@
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "MemoryLeak",
+      "type": "fluid",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "memory_leak",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "ChocolateSword",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_sword"
+    },
+    {
+      "name": "SteveGhost",
+      "type": "livingentity",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steve_ghost"
     }
   ],
   "variable_elements": [
@@ -1043,8 +1064,9 @@
       "subtitles.yoshicooms": "Yoshi is coming.:RazHead:",
       "item.therazorhail_mod.marw_cloak_4_boots": "Marw Cloak 4 Boots",
       "entity.therazorhail_mod.razor_boss": "Buttery Boy Razor",
+      "item.therazorhail_mod.memory_leak_bucket": "Memory Leak Bucket",
+      "item.therazorhail_mod.chocolate_sword": "Chocolate Sword",
       "subtitles.razjibated": "He got jibated :KEKW:",
-      "entity.therazorhail_mod.dementia_eye": "Dementia Eye",
       "item.therazorhail_mod.beer": "Beer",
       "subtitles.heavychilling": "Heavy Be Chilling",
       "block.therazorhail_mod.forgotten_wood_fence": "ForgottenWood Fence",
@@ -1055,7 +1077,6 @@
       "subtitles.heeavypissed": "Heavy Is Fucking Pissed",
       "block.therazorhail_mod.forgotten_wood_log": "ForgottenWood Log",
       "item.therazorhail_mod.chicken_invaders_theme": "Chicken Invaders Theme",
-      "item.therazorhail_mod.dementia_eye_spawn_egg": "Dementia Eye Spawn Egg",
       "block.therazorhail_mod.razor_head": "Razor Head",
       "subtitles.playereatsandwich": "Player Eats Sandwich",
       "item.therazorhail_mod.marw_cloak_4_leggings": "Marw Cloak 4 Leggings",
@@ -1067,14 +1088,18 @@
       "item.therazorhail_mod.mod_tutorial": "Mod Tutorial",
       "subtitles.hegotdiqued": "He got dicked. :KEKW:",
       "item.therazorhail_mod.chicken_invaders_theme.desc": "While listening to this, you see Heavies Circle You.",
+      "item.therazorhail_mod.steve_ghost_spawn_egg": "Forgotten Ghost Spawn Egg",
       "item.therazorhail_mod.dementia_spawn_egg": "Dementia Spawn Egg",
       "subtitles.razorscreams": "The Razzy got scared,",
       "itemGroup.tabthe_razor_hail_mod_stuff": "The Razor Hail Mod Stuff",
       "subtitles.amogussussy": "JKL I hate you sometimes. (joking lol)",
       "item.therazorhail_mod.heavy_tf_2_spawn_egg": "Heavy TF2 Spawn Egg",
+      "fluid.therazorhail_mod.memory_leak": "Memory Leak",
       "subtitles.heavyeatsandvich": "Someone is eating sandvich.",
+      "block.therazorhail_mod.memory_leak": "Memory Leak",
       "item.therazorhail_mod.speed_candy": "Speed Candy",
       "subtitles.chicken_invaders_theme": "A Song Of Dominance Plays, Pray.",
+      "entity.therazorhail_mod.steve_ghost": "Forgotten Ghost",
       "block.therazorhail_mod.forgotten_wood_leaves": "ForgottenWood Leaves",
       "block.therazorhail_mod.beer_brewer": "Beer Brewer",
       "subtitles.spoooooooooon": "Someone Got Spooned.",
@@ -1122,7 +1147,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.therazorhailmod",

@@ -54,6 +54,7 @@ import net.minecraft.block.AbstractBlock;
 
 import net.mcreator.therazorhailmod.particle.DementiaParticlesParticle;
 import net.mcreator.therazorhailmod.item.ForgottenDimensionItem;
+import net.mcreator.therazorhailmod.block.ForgottenStoneBlock;
 import net.mcreator.therazorhailmod.TherazorhailModModElements;
 
 import javax.annotation.Nullable;
@@ -85,10 +86,10 @@ public class ForgottenDimensionDimension extends TherazorhailModModElements.ModE
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(Blocks.POLISHED_ANDESITE).build(), "field_222718_j");
+						.add(ForgottenStoneBlock.block).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(Blocks.POLISHED_ANDESITE).build(), "field_222718_j");
+						.add(ForgottenStoneBlock.block).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -101,7 +102,7 @@ public class ForgottenDimensionDimension extends TherazorhailModModElements.ModE
 		DimensionRenderInfo customEffect = new DimensionRenderInfo(Float.NaN, true, DimensionRenderInfo.FogType.NONE, false, false) {
 			@Override
 			public Vector3d func_230494_a_(Vector3d color, float sunHeight) {
-				return new Vector3d(0.4, 0.4, 0.4);
+				return color;
 			}
 
 			@Override

@@ -13,10 +13,6 @@
       "value": -10066330,
       "falpha": 0.0
     },
-    "waterColor": {
-      "value": -16764109,
-      "falpha": 0.0
-    },
     "ambientSound": {
       "value": ""
     },
@@ -56,7 +52,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 7,
@@ -85,6 +81,16 @@
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
     "defaultFeatures": [],
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Dementia"
+        },
+        "minGroup": 2,
+        "maxGroup": 2,
+        "weight": 19,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

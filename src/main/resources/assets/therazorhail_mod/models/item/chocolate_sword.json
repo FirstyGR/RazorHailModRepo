@@ -1,0 +1,7 @@
+{
+  "parent": "therazorhail_mod:custom/chocolatesword",
+  "textures": {
+    "0": "therazorhail_mod:blocks/chocolateswordtxt",
+    "particle": "therazorhail_mod:items/chocolateswordtxt"
+  }
+}
