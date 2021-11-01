@@ -32,13 +32,13 @@ public class ChocolateSwordItem extends TherazorhailModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(TheRazorHailModStuffItemGroup.tab).maxStackSize(1).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(TheRazorHailModStuffItemGroup.tab).maxDamage(255).rarity(Rarity.RARE));
 			setRegistryName("chocolate_sword");
 		}
 
 		@Override
 		public int getItemEnchantability() {
-			return 0;
+			return 22;
 		}
 
 		@Override

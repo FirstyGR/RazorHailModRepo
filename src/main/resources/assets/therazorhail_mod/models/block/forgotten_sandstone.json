@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "therazorhail_mod:blocks/sandstone_bottom",
+    "up": "therazorhail_mod:blocks/sandstone_top",
+    "north": "therazorhail_mod:blocks/sandstone",
+    "east": "therazorhail_mod:blocks/sandstone",
+    "south": "therazorhail_mod:blocks/sandstone",
+    "west": "therazorhail_mod:blocks/sandstone",
+    "particle": "therazorhail_mod:blocks/sandstone_bottom"
+  }
+}

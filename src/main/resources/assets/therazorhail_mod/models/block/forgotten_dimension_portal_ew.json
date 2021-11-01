@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "therazorhail_mod:blocks/strippedforgottenwood",
-    "portal": "therazorhail_mod:blocks/strippedforgottenwood"
+    "particle": "therazorhail_mod:blocks/animatedforgotenportal",
+    "portal": "therazorhail_mod:blocks/animatedforgotenportal"
   },
   "elements": [
     {

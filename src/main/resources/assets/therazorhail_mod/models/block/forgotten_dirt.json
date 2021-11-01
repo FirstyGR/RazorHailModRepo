@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "up": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "north": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "east": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "south": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "west": "therazorhail_mod:blocks/forgottengrassbottom.jpg",
+    "particle": "therazorhail_mod:blocks/forgottengrassbottom.jpg"
+  }
+}

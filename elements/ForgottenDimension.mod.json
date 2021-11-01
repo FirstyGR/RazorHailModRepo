@@ -7,7 +7,10 @@
         "value": "CUSTOM:ForgottenBiome"
       },
       {
-        "value": "plains"
+        "value": "birch_forest"
+      },
+      {
+        "value": "CUSTOM:ForgottenDesert"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -18,12 +21,12 @@
       "value": "CUSTOM:MemoryLeak"
     },
     "canRespawnHere": true,
-    "hasFog": true,
+    "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": "Blocks.COAL_BLOCK"
     },
@@ -32,14 +35,14 @@
     },
     "portalLuminance": 5,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": ""
     },
     "igniterName": "Forgotten Dimension Portal Igniter",
     "igniterTab": {
       "value": "CUSTOM:TheRazorHailModStuff"
     },
     "texture": "deeznuts",
-    "portalTexture": "strippedforgottenwood",
+    "portalTexture": "animatedforgotenportal",
     "enablePortal": true
   }
 }

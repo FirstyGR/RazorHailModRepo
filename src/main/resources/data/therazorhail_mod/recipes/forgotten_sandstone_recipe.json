@@ -1,0 +1,22 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "therazorhail_mod:forgotten_sand"
+    },
+    {
+      "item": "therazorhail_mod:forgotten_sand"
+    },
+    {
+      "item": "therazorhail_mod:forgotten_sand"
+    },
+    {
+      "item": "therazorhail_mod:forgotten_sand"
+    }
+  ],
+  "result": {
+    "item": "therazorhail_mod:forgotten_sandstone",
+    "count": 1
+  }
+}

@@ -6,15 +6,15 @@
     "texture": "chocolateswordtxt",
     "customModelName": "chocolatesword:default",
     "name": "Chocolate Sword",
-    "rarity": "UNCOMMON",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:TheRazorHailModStuff"
     },
     "stackSize": 1,
-    "enchantability": 0,
+    "enchantability": 22,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 255,
     "recipeRemainder": {
       "value": ""
     },

@@ -1,0 +1,36 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:white_concrete"
+    },
+    "2": {
+      "item": "minecraft:black_concrete"
+    },
+    "3": {
+      "item": "minecraft:black_concrete"
+    },
+    "4": {
+      "item": "minecraft:emerald_block"
+    },
+    "5": {
+      "item": "minecraft:white_concrete"
+    },
+    "6": {
+      "item": "minecraft:white_concrete"
+    },
+    "8": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:forgotten_dimension",
+    "count": 1
+  }
+}
