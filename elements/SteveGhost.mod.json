@@ -56,7 +56,7 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "SteveGhostDialogueGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -100,9 +100,6 @@
     "particleAmount": 4,
     "whenMobDies": {
       "name": "SteveGhostEntityDies"
-    },
-    "onRightClickedOn": {
-      "name": "SteveGhostRightClickedOnEntity"
     },
     "hasAI": true,
     "aiBase": "(none)",

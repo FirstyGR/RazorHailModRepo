@@ -1,0 +1,42 @@
+{
+  "group": "therazorhail_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_concrete"
+    },
+    "1": {
+      "item": "minecraft:lime_concrete"
+    },
+    "2": {
+      "item": "minecraft:lime_concrete"
+    },
+    "3": {
+      "item": "minecraft:lime_concrete"
+    },
+    "4": {
+      "item": "minecraft:lime_concrete"
+    },
+    "5": {
+      "item": "minecraft:lime_concrete"
+    },
+    "6": {
+      "item": "minecraft:lime_concrete"
+    },
+    "7": {
+      "item": "minecraft:lime_concrete"
+    },
+    "8": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "therazorhail_mod:green_screen_block",
+    "count": 1
+  }
+}

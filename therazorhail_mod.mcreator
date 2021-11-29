@@ -952,6 +952,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "forgotten_portal_igniter_recipe"
+    },
+    {
+      "name": "SteveGhostDialogueGUI",
+      "type": "gui",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steve_ghost_dialogue_gui"
+    },
+    {
+      "name": "GreenScreenBlock",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_screen_block"
+    },
+    {
+      "name": "GreenScreenBlockRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_screen_block_recipe"
     }
   ],
   "variable_elements": [
@@ -1183,6 +1210,7 @@
       "block.therazorhail_mod.forgotten_sand": "Forgotten Sand",
       "item.therazorhail_mod.chocolate_sword": "Chocolate Sword",
       "subtitles.razjibated": "He got jibated :KEKW:",
+      "block.therazorhail_mod.green_screen_block": "Green Screen Block",
       "block.therazorhail_mod.forgotten_dirt": "Forgotten Dirt",
       "item.therazorhail_mod.beer": "Beer",
       "subtitles.heavychilling": "Heavy Be Chilling",

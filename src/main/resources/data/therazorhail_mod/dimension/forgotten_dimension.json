@@ -46,7 +46,7 @@
           }
         },
         {
-          "biome": "birch_forest",
+          "biome": "therazorhail_mod:forgotten_desert",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -56,7 +56,7 @@
           }
         },
         {
-          "biome": "therazorhail_mod:forgotten_desert",
+          "biome": "forest",
           "parameters": {
             "temperature": -1,
             "humidity": 1,

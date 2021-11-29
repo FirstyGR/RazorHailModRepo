@@ -7,10 +7,10 @@
         "value": "CUSTOM:ForgottenBiome"
       },
       {
-        "value": "birch_forest"
+        "value": "CUSTOM:ForgottenDesert"
       },
       {
-        "value": "CUSTOM:ForgottenDesert"
+        "value": "forest"
       }
     ],
     "worldGenType": "Normal world gen",

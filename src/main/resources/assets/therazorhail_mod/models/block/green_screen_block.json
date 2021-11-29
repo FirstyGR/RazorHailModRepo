@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "therazorhail_mod:blocks/greenscreen",
+    "up": "therazorhail_mod:blocks/greenscreen",
+    "north": "therazorhail_mod:blocks/greenscreen",
+    "east": "therazorhail_mod:blocks/greenscreen",
+    "south": "therazorhail_mod:blocks/greenscreen",
+    "west": "therazorhail_mod:blocks/greenscreen",
+    "particle": "therazorhail_mod:blocks/greenscreen"
+  }
+}

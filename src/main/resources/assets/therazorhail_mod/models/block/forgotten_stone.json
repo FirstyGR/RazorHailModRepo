@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "therazorhail_mod:blocks/forgottenstone",
-    "up": "therazorhail_mod:blocks/forgottenstone",
-    "north": "therazorhail_mod:blocks/forgottenstone",
-    "east": "therazorhail_mod:blocks/forgottenstone",
-    "south": "therazorhail_mod:blocks/forgottenstone",
-    "west": "therazorhail_mod:blocks/forgottenstone",
-    "particle": "therazorhail_mod:blocks/forgottenstone"
+    "down": "therazorhail_mod:blocks/frgtnstone2",
+    "up": "therazorhail_mod:blocks/frgtnstone2",
+    "north": "therazorhail_mod:blocks/frgtnstone2",
+    "east": "therazorhail_mod:blocks/frgtnstone2",
+    "south": "therazorhail_mod:blocks/frgtnstone2",
+    "west": "therazorhail_mod:blocks/frgtnstone2",
+    "particle": "therazorhail_mod:blocks/frgtnstone2"
   }
 }
